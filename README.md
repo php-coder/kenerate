@@ -29,5 +29,6 @@ $ make
 
 * Now, let's run it:
 ```console
-$ java -jar kenerate.jar
+$ java -jar kenerate.jar class Test
+Generating class Test
 ```
