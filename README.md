@@ -1,5 +1,7 @@
 # Kenerate
 
+[![PDD status](http://www.0pdd.com/svg?name=php-coder/kenerate)](http://www.0pdd.com/p?name=php-coder/kenerate)
+
 ## What is it
 
 Kenerate is (supposed to be) a tool for generating Java code for me. Also I'd
