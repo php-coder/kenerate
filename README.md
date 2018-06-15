@@ -9,15 +9,25 @@ like to play with Kotlin language.
 
 * Install Kotlin first:
 
-```shell
+```console
 $ curl -s 'https://get.sdkman.io' | bash
 $ source "$HOME/.sdkman/bin/sdkman-init.sh"
 $ sdk install kotlin
 ```
 
-* Then compile and run program:
+* To compile a program:
 
-```
+```console
 $ kotlinc main.kt -include-runtime -d kenerate.jar
+```
+
+or simply
+
+```console
+$ make
+```
+
+* Now, let's run it:
+```console
 $ java -jar kenerate.jar
 ```
