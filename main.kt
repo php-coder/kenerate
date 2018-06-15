@@ -18,6 +18,11 @@ fun main(args: Array<String>) {
 	val fileName: String = className + ".java"
 	println("Generating file $fileName")
 	
+	// @todo #4 class: support for a package
+	// @todo #4 class: support for visibility modifiers
+	// @todo #4 class: support for adding a comment
+	// @todo #4 class: support for adding an annotation
+	// @todo #4 class: support for adding an import
 	val content = "class $className {\n}\n"
 	File(fileName).writeText(content)
 }
