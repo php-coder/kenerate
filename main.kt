@@ -1,3 +1,5 @@
+import java.io.File
+
 fun main(args: Array<String>) {
 	if (args.size != 2) {
 		println("Usage: kenerate class <name>")
@@ -13,5 +15,9 @@ fun main(args: Array<String>) {
 	}
 	
 	val className: String = args[1]
-	println("Generating class $className")
+	val fileName: String = className + ".java"
+	println("Generating file $fileName")
+	
+	val content = "class $className {\n}\n"
+	File(fileName).writeText(content)
 }

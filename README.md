@@ -30,5 +30,8 @@ $ make
 * Now, let's run it:
 ```console
 $ java -jar kenerate.jar class Test
-Generating class Test
+Generating file Test.java
+$ cat Test.java
+class Test {
+}
 ```
