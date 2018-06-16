@@ -31,9 +31,11 @@ $ make
 
 * Now, let's run it:
 ```console
-$ java -jar kenerate.jar class Test
-Generating file Test.java
-$ cat Test.java
+$ java -jar kenerate.jar class Test -package com.example
+Generating file com/example/Test.java
+$ cat com/example/Test.java
+package com.example;
+
 class Test {
 }
 ```
